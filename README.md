@@ -1,6 +1,6 @@
 # HFY2PDF
 
-HFY2PDF is a bot aimed to get the latest HFY OC posts and convert them into PDF and ePub.
+HFY2PDF is a bot aimed to get the latest HFY OC posts (from subscribed authors) and convert them into PDF and ePub.
 
 ## License
 
