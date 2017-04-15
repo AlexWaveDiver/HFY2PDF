@@ -30,7 +30,7 @@ var db = new sqlite3.Database("data.sqlite3");
 db.run("CREATE TABLE IF NOT EXISTS posts (id INTEGER PRIMARY KEY AUTOINCREMENT, idSubmission TEXT)");
 db.run("CREATE TABLE IF NOT EXISTS whitelist (id INTEGER PRIMARY KEY AUTOINCREMENT, user TEXT)");
 
-// Blacklist/Subscribe messages
+// Subscribe/Unsubscribe messages
 req.getUnreadMessages({
     filter: 'messages'
 }).then(unreadMessages => {
